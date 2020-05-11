@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+ul {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.left {
+  margin: 0;
+  float: left;
+  padding-left: 0;
+}
+
+.right {
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding-right: 10px;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#sign-in {
+    background-color: dodgerblue;  
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+#sign-in-text {
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 150px;
+}
+
+#logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search {
+    padding-top: 20px;
+}
+
+#search-bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px; 
+    height: 40px;
+    border-radius: 30px; 
+    border: 0.5px solid lightgray;
+}
+
+#buttons {
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-top: 20px;
+}
+
+.main-buttons {
+    background-color: whitesmoke;
+    border: none;
+    height: 35px;
+    width: 150px;
+}
+
+.main-buttons:hover {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+#right-button {
+    float: right;
+}
+
+.a-text {
+    font-size: 14px;
+    color: darkslategray;
+}
+
+.a-text:hover {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    font-size: 14px;
+}
